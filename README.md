@@ -5,3 +5,4 @@ branch 1
 change in remote
 change in local
 chane 2 in remote
+change 2 in local
