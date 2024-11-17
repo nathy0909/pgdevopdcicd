@@ -7,3 +7,4 @@ change in local
 chane 2 in remote
 change 2 in local
 rebase start
+1
