@@ -5,7 +5,7 @@ on: [push]
 
 env:
   owner_name: Nandhini
-  repo_var: ${{ vars.MY_REPO_VAR }}
+  repo_var: ${{ vars.GITHUB_ACTOR }}
 
 jobs:
   use_env_var:
