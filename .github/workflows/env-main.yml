@@ -5,10 +5,11 @@ on: [push]
 
 env:
   owner_name: Nandhini
+  repo_var: ${{ vars.MY_REPO_VAR }}
 
 jobs:
   use_env_var:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "Job use_env_var is executing as part of new workflow - from $owner_name"
+      - run: echo "Job use_env_var is executing as part of new workflow - from $owner_name - repo - $repo_var
 
